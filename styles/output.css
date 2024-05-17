@@ -1933,11 +1933,6 @@ video {
   background-color: rgb(0 0 0 / 0.6);
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
@@ -1946,6 +1941,11 @@ video {
 .bg-green-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.bg-pink-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
 .bg-red-500 {
@@ -1964,7 +1964,7 @@ video {
 }
 
 .bg-home {
-  background-image: url('/assets/Background/fundo.png');
+  background-image: url('/assets/banner/b22.png');
 }
 
 .decoration-slice {
@@ -2279,9 +2279,9 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-pink-700 {
+.text-pink-500 {
   --tw-text-opacity: 1;
-  color: rgb(190 24 93 / var(--tw-text-opacity));
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
@@ -2675,7 +2675,7 @@ video {
 }
 
 body{
-  background-color: #f6f7f8;
+  background-color: #f6f6f8;
 }
 
 @media (min-width: 640px) {
